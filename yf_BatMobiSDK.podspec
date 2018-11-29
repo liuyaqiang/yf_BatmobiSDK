@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
 s.name             = "yf_BatMobiSDK"
-s.version          = "2.3.8.2"
+s.version          = "2.4.5"
 s.summary          = "yf_BatMobiSDK"
 
 s.description      = <<-DESC
@@ -22,8 +22,9 @@ s.vendored_frameworks = 'BatMobi/ZZAdSDK.framework','BatMobi/ZZAdVideoSDK.framew
 
 s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC'}
 
-#s.source_files = 'BatMobi/ZZAdSDK.framework/Headers/*.{h}','BatMobi/ZZAdVideoSDK.framework/Headers/*.{h}','BatMobi/ZZDWKit.framework/Headers/*.{h}'
+s.source_files = 'BatMobi/ZZAdSDK.framework/Headers/*.{h}','BatMobi/ZZAdVideoSDK.framework/Headers/*.{h}','BatMobi/ZZDWKit.framework/Headers/*.{h}'
 
-#s.public_header_files = 'BatMobi/ZZAdSDK.framework/Headers/*.{h}','BatMobi/ZZAdVideoSDK.framework/Headers/*.{h}','BatMobi/ZZDWKit.framework/Headers/*.{h}'
-#s.frameworks = 'UIKit', 'AVFoundation', 'Foundation', 'CoreMedia', 'CoreLocation', 'CoreTelephony', 'SystemConfiguration', 'StoreKit', 'MediaPlayer', 'CFNetwork', 'AdSupport', 'ImageIO', 'WebKit', 'AdSupport', 'MobileCoreServices'
+s.public_header_files = 'BatMobi/ZZAdSDK.framework/Headers/*.{h}','BatMobi/ZZAdVideoSDK.framework/Headers/*.{h}','BatMobi/ZZDWKit.framework/Headers/*.{h}'
+
+s.frameworks = 'UIKit', 'AVFoundation', 'Foundation', 'CoreMedia', 'CoreLocation', 'CoreTelephony', 'SystemConfiguration', 'StoreKit', 'MediaPlayer', 'CFNetwork', 'AdSupport', 'ImageIO', 'WebKit', 'AdSupport', 'MobileCoreServices'
 end
