@@ -17,5 +17,5 @@ s.source           = { :git => "https://github.com/liuyaqiang/yf_BatMobiSDK.git"
  #s.resource     = 'BatMobi/zzAdImage.bundle'
  s.vendored_frameworks = 'BatMobi/ZZAdSDK.framework','BatMobi/ZZAdVideoSDK.framework','BatMobi/ZZDWKit.framework'
 s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
-s.frameworks = 'UIKit', 'AVFoundation', 'Foundation', 'CoreMedia', 'CoreLocation', 'CoreTelephony', 'SystemConfiguration', 'StoreKit', 'MediaPlayer', 'CFNetwork', 'AdSupport', 'ImageIO', 'WebKit', 'AdSupport', 'MobileCoreServices'
+#s.frameworks = 'UIKit', 'AVFoundation', 'Foundation', 'CoreMedia', 'CoreLocation', 'CoreTelephony', 'SystemConfiguration', 'StoreKit', 'MediaPlayer', 'CFNetwork', 'AdSupport', 'ImageIO', 'WebKit', 'AdSupport', 'MobileCoreServices'
 end
